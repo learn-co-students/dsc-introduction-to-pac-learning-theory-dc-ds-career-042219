@@ -1,9 +1,9 @@
 
-# Probably Approximately Correct (PAC) - Computational Learning Theory 
+# Introduction to PAC Learning Theory
 
 ## Introduction 
 
-___Probably Approximately Correct (PAC) computational learning theory provides a mathematically rigorous definition of what machine learning is.___
+**Probably Approximately Correct (PAC)** computational learning theory provides a mathematically rigorous definition of what machine learning is.
 
 So far, we have looked into steps required in order to run machine learning algorithms including data representations, feature selection and engineering, training, prediction and evaluation of results. In this lesson, we shall provide a brief overview of a __Probably Approximately Correct__ or __PAC__ learning theory that provides a foundation for experimental settings that we have looked at so far. In essence , PAC deals with the computational aspect of machine learning. The theory helps us deal with sample complexity and associated computational complexity in order to answer an analytical question. 
 
@@ -30,14 +30,14 @@ What do we actually mean by __success__?  It should actually be any measure or a
 
 <img src="pac1.png" width=400>
 
-### Failure Probability 
+## Failure Probability 
 
 According to PAC, there is always a small probability that the learning algorithm fails and the results produced are not accurate. One obvious reason could be that learning examples do not fully reflect the probability distribution that the examples belong to, and. i.e. This hinders l learning process seriously and target function $f$ can not be achieved. insufficient examples is something that we come across very often in machine learning discipline.  PAC Learning attempts to reduce the probability of getting such poor examples by __considering a sufficient number of examples__ for learning the required function. 
 
 > __PAC learning approach places an upper bound on the probability of error by placing a lower bound on the number
 of examples required to learn the target function.__
 
-### Function Approximation
+## Function Approximation
 
 In PAC, we do not expect the learner to learn the __exact__ function most of the time, due to limits on available examples and noise in the data etc. We expect the learner to find a function $h$ which is very close to the desired function $f$. So we say that __$h$ approximates $f$__ , and that is function we are interested in learning. 
 
