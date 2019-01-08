@@ -89,7 +89,7 @@ It is therefore natural to calculate the error probability over the same distrib
 
 ## How PAC relates to Machine Learning 
 
-PAC uses the term 'hypothesis',whereas ML literature normally uses the term 'model'. So we have seen that Machine learning starts with some data, (xi,yi) and we want to find a hypothesis (or mode) that will, given the inputs xi return yi or something very close. More importantly given new data x̃  the model will  predict the corresponding ỹ.
+PAC uses the term 'hypothesis',whereas ML literature normally uses the term 'model'. So we have seen that Machine learning starts with some data, (xi,yi) and we want to find a hypothesis (or model) that will, given the inputs xi return yi or something very close. More importantly given new data x̃  the model will  predict the corresponding ỹ.
 
 A model that was created using some (out of many examples) of data do not accurately reflect that data set, but can be accurate on any future data sets. The two important points are that we cannot predict new data with 100% accuracy. There is also the possibility that the one or more examples are poor and do not explain much. 
 
