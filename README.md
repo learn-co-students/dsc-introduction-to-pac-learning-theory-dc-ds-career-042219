@@ -33,7 +33,7 @@ Obviously, the more data we have to train our model, the more **_confidence_** w
 
 Hence the name, **_Probably Approximately Correct Learning Theory_**!
 
-<center><img src="images/pac1.png" width=400>
+<center><img src="images/pac1_fs.png" width="700">
 
 ## Function Approximation
 
@@ -74,7 +74,7 @@ If we wanted to read this equation out loud, we would say:
 
 $P_{x∈D}$ reflects the probabilities are taken with respect to random draws over $D$ __only__. Luckily, this is much easier to understand when we visualize it. In terms of set theory, our error is the __symmetric difference__ between the sets corresponding to $h$ and $f$ over $X$, shown in the shaded areas below, highlighting probabilistic region of disagreement between $h$ and $f$, which gives us the probability of error:
 
-<img src="images/pac2.png" width=200>
+<img src="images/pac2_fs.png" width="340">
 
 ## PAC Examples
 
